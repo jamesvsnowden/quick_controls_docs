@@ -1,0 +1,47 @@
+site_name: Quick Controls
+theme:
+  name: 'readthedocs'
+markdown_extensions:
+  - admonition
+nav:
+  - About: index.md
+  - Installation: installation.md
+  - Quick Start: quick_start.md
+  - Shape Options: shape_options.md
+  - Shapes:
+    - Geometric 2D:
+      - Line: shapes/line.md
+      - Arc: shapes/arc.md
+      - Triangle: shapes/triangle.md
+      - Rectangle: shapes/rectangle.md
+      - Trapezoid: shapes/trapezoid.md
+      - Polygon: shapes/polygon.md
+      - Ellipse: shapes/ellipse.md
+      - Semi-ellipse: shapes/semiellipse.md
+    - Geometric 3D:
+      - Cuboid: shapes/cuboid.md
+      - Cylinder: shapes/cylinder.md
+      - Ellipsoid: shapes/ellipsoid.md
+      - Hemiellipsoid: shapes/hemiellipsoid.md
+      - Frustrum: shapes/frustrum.md
+      - Bifrustrum: shapes/bifrustrum.md
+      - Pyramid: shapes/pyramid.md
+      - Bipyramid: shapes/bipyramid.md
+      - Cone: shapes/cone.md
+      - Bicone: shapes/bicone.md
+    - Transform 2D/3D:
+      - Translate: shapes/translate.md
+      - Move: shapes/move.md
+      - Rotate: shapes/rotate.md
+      - Scale: shapes/scale.md
+      - Swing: shapes/swing.md
+      - Twist: shapes/twist.md
+    - Symbolic 2D/3D:
+      - Axes: shapes/axes.md
+      - Root: shapes/root.md
+      - Arrow: shapes/arrow.md
+      - Frame: shapes/frame.md
+      - Target: shapes/target.md
+      - Capsule: shapes/capsule.md
+      - Joint: shapes/joint.md
+      - Bone: shapes/bone.md
